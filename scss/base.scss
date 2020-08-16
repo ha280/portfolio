@@ -1,0 +1,45 @@
+*{
+	padding: 0;
+	border: 0;
+	box-sizing: inherit;
+}
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+html{
+	box-sizing: inherit;
+    font-size: 65%;
+    text-rendering: optimizeLegibility;  
+	padding: 0;
+	border: 0;
+}
+.contain{
+    margin: 2rem;
+    padding: 2rem;
+    box-shadow: 2rem 1rem 4rem rgba(#000, .2);
+}
+body{
+    font-weight: 400;
+    color: #777;
+    font-family: 'Open sans' ,sans-serif;
+    line-height: 1.6;
+}
+footer{
+    font-family: "Lato";
+    font-weight: 600;
+    line-height: 1.5;
+    box-sizing: border-box;
+    background: #ca6363;
+    color: white;
+    letter-spacing: .3rem;
+    text-align: center;
+    font-size: .8rem;
+    padding: .5rem .3rem;
+    text-transform: uppercase;
+    height: 3rem;
+    blockquote{
+        font-size: 1.2rem;
+    }
+}

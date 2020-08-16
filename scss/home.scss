@@ -1,0 +1,27 @@
+.section-home{
+    height: 25vw;
+    position: relative;
+}
+
+.section-about{
+    background-image: linear-gradient(to right bottom,rgb(238, 104, 104),rgb(241, 220, 220));
+    height: 35vw;
+   position: relative;
+   clip-path: polygon(0 30%, 100% 0, 100% 70%, 0 100%);
+}
+
+.about{
+    h1{
+        text-align: center;
+        color: white;
+        font-size: 4rem;
+    }
+    p{
+        line-height: 2.5rem;
+        font-size: 1.5rem;
+    }
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}

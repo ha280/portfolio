@@ -1,0 +1,40 @@
+.size{
+    height: 2rem;
+    width: 2rem;
+}
+blockquote{
+    padding: .5rem;
+    margin-left: 10rem;
+}
+.font-med{
+    font-size: 1.5rem !important;
+}
+
+.home-text{
+    position: absolute;
+    top: 60%;
+    left: 25%;
+    transform: translate(-25%,-50%);
+    h1{
+        font-size: 4.5rem;
+        font-weight: 500;
+        letter-spacing: 0.2rem;
+    }
+    h2{
+        font-weight: bold;
+        font-size: 3.5rem;
+    }
+    p{
+        font-size: 2rem;
+    }
+}
+.home-img{
+    position: absolute;
+    top: 20%;
+    right: 15%;
+    height: 17rem;
+    width: 17rem;
+    border-radius: 50%;
+    box-shadow: 2rem 1rem 4rem rgba(#000, .2);
+    border: 3px solid #000;
+}
